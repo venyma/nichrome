@@ -1,0 +1,65 @@
+body {
+.tab.active {
+background: linear-gradient(#ffffff, #dce8ff);
+box-shadow: inset 0 1px 0 #fff, inset 0 -1px 3px #9eb6e9, 0 -1px 2px #00000044;
+}
+
+
+.tab .close-btn {
+border: 1px solid transparent;
+background: transparent;
+width: 16px;
+height: 16px;
+line-height: 14px;
+text-align: center;
+border-radius: 2px;
+cursor: pointer;
+}
+
+
+.tab .close-btn:hover { background: rgba(0,0,0,0.06); }
+
+
+.new-tab-btn {
+margin-left: 6px;
+margin-right: 6px;
+border-radius: 4px;
+height: 22px;
+width: 28px;
+border: 1px solid #7e9ad1;
+background: linear-gradient(#ffffff, #d0defc);
+cursor: pointer;
+}
+
+
+.toolbar {
+display: flex;
+align-items: center;
+height: 40px;
+background: linear-gradient(#e7efff, #c7d6f6);
+border-bottom: 1px solid #829ed6;
+padding: 4px;
+gap: 6px;
+}
+
+
+.nav-btn {
+background: linear-gradient(#ffffff, #d0defc);
+border: 1px solid #7f9bd1;
+border-radius: 4px;
+padding: 4px 8px;
+font-size: 14px;
+box-shadow: inset 0 1px 0 #ffffffcc;
+cursor: pointer;
+}
+
+
+.url-bar {
+flex: 1;
+height: 26px;
+border: 1px solid #7f9bd1;
+border-radius: 4px;
+padding: 2px 8px;
+box-shadow: inset 0 1px 2px #00000022;
+font-size: 14px;
+}
