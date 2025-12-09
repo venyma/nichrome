@@ -1,0 +1,17 @@
+{
+"name": "nodlock-nichrome",
+"version": "1.0.0",
+"main": "main.js",
+"scripts": {
+"start": "electron ."
+},
+"dependencies": {},
+"devDependencies": {
+"electron": "latest"
+},
+"build": {
+"appId": "com.retro.browser",
+"productName": "RetroBrowser",
+"icon": "assets/icon"
+}
+}
